@@ -63,7 +63,15 @@
 				startX = touch.changedTouches[0].pageX;
 
 			slider.on('touchmove',function(e){
+			
+			overlay.append(closeIcon);
 
+			closeIcon.click(function(e){
+				e.preventDefault();
+				hideOverlay()
+			});
+			
+			
 				e.preventDefault();
 
 				touch = e.originalEvent.touches[0] ||
