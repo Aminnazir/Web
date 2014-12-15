@@ -15,52 +15,7 @@ Aminnazir
 </author>
 
 <icon src="assets/icon.png" />
-
-<platform name="android">
-    <!-- you can use any density that exists in the Android project -->
-    <splash src="assets/splash.png" density="land-hdpi"/>
-    <splash src="assets/splash.png" density="land-ldpi"/>
-    <splash src="assets/splash.png" density="land-mdpi"/>
-    <splash src="assets/splash.png" density="land-xhdpi"/>
-
-    <splash src="assets/splash.png" density="port-hdpi"/>
-    <splash src="assets/splash.png" density="port-ldpi"/>
-    <splash src="assets/splash.png" density="port-mdpi"/>
-    <splash src="assets/splash.png" density="port-xhdpi"/>
-</platform>
-
-<platform name="ios">
-    <!-- images are determined by width and height. The following are supported -->
-    <splash src="assets/splash.png" width="320" height="480"/>
-    <splash src="assets/splash.png" width="640" height="960"/>
-    <splash src="assets/splash.png" width="768" height="1024"/>
-    <splash src="assets/splash.png" width="1536" height="2048"/>
-    <splash src="assets/splash.png" width="1024" height="768"/>
-    <splash src="assets/splash.png" width="2048" height="1536"/>
-    <splash src="assets/splash.png" width="640" height="1136"/>
-    <splash src="assets/splash.png" width="750" height="1334"/>
-    <splash src="assets/splash.png" width="1242" height="2208"/>
-    <splash src="assets/splash.png" width="2208" height="1242"/>
-</platform>
-
-<platform name="wp8">
-    <!-- images are determined by width and height. The following are supported -->
-    <splash src="assets/splash.png" width="768" height="1280"/>
-</platform>
-
-<platform name="windows8">
-    <!-- images are determined by width and height. The following are supported -->
-    <splash src="assets/splash.png" width="620" height="300"/>
-</platform>
-
-<platform name="blackberry10">
-    <!-- Add a rim:splash element for each resolution and locale you wish -->
-    <!-- http://developer.blackberry.com/html5/documentation/rim_splash_element.html -->
-    <rim:splash src="assets/splash.png"/>
-</platform>
-
-
-<preference name="SplashScreenDelay" value="10000" />
+<gap:splash src="assets/splash.png" />
 
 
 </widget>
