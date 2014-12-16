@@ -20,7 +20,7 @@ Aminnazir
 <gap:splash src="assets/splash.png" gap:platform="winphone" />
 
 
-<preference name="SplashScreenDelay" value="100000" />
+<preference name="SplashScreenDelay" value="2000" />
 
 
 </widget>
