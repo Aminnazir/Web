@@ -15,7 +15,7 @@
 		slider = $('<div id="gallerySlider">'),
 		prevArrow = $('<a id="prevArrow"></a>'),
 		nextArrow = $('<a id="nextArrow"></a>'),
-		closeIcon = $('<a id="close"></a>'),
+		closeIcon = $('<a id="close">Home</a>'),
 	
 		overlayVisible = false;
 

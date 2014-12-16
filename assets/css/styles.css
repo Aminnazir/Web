@@ -78,7 +78,12 @@ header h2{
 /*----------------------------
 	Thumbnails
 -----------------------------*/
-
+.logo
+{
+text-align:center;
+margin-bottom: -20px;
+margin-top: 40px;
+}
 .thumbs{
 	width:480px;
 	margin:60px auto 35px;

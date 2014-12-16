@@ -107,20 +107,19 @@
 /* Arrows */
 
 #close{
-	    border: medium none;
+	       border: medium none;
     text-decoration: none;
-    background: url('close.png') no-repeat scroll 0% 0% transparent;
-    opacity: 0.5;
     cursor: pointer;
     position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 5%;
+    top: 4%;
     margin-top: -13px;
-	right: 38px;
- 	-moz-transition:opacity 0.2s ease;
-	-webkit-transition:opacity 0.2s ease;
-	transition:opacity 0.2s ease;
+    right: 10px;
+    transition: opacity 0.2s ease 0s;
+    color: #fff;
+    font-size: 16pt;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1px 7px 4px 5px;
+    border-radius: 3px 3px 3px 3px;
 }
 #prevArrow,#nextArrow{
 	border:none;
