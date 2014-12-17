@@ -15,12 +15,7 @@ Aminnazir
 </author>
 
 <icon src="assets/icon.png" />
-<gap:splash src="assets/splash.png" gap:platform="ios" />
-<gap:splash src="assets/splash.png" gap:platform="android" />
-<gap:splash src="assets/splash.png" gap:platform="winphone" />
 
-
-<preference name="SplashScreenDelay" value="2000" />
 
 
 </widget>
