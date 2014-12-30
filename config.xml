@@ -4,7 +4,7 @@
     id        = "com.phonegap.example"
     version   = "1.0.2">
 
-<name>Dua Test App</name>
+<name>Dua App</name>
 
 <description>
 A simple test app.
@@ -16,6 +16,6 @@ Aminnazir
 
 <icon src="assets/icon.png" />
 
-
+	
 
 </widget>
