@@ -61,8 +61,8 @@
 
 			var touch = e.originalEvent,
 				startX = touch.changedTouches[0].pageX;
-
-				overlay.append(closeIcon);
+			
+			overlay.append(closeIcon);
 
 			closeIcon.click(function(e){
 				e.preventDefault();
@@ -103,6 +103,8 @@
 
 		// Listening for clicks on the thumbnails
 		items.on('click', function(e){
+		
+		
 
 			e.preventDefault();
 
@@ -121,7 +123,8 @@
 				selectorType = 'item';
 
 			//If gallery name given to some ancestor
-			} else if ($closestGallery.length) {
+			} 
+			else if ($closestGallery.length) {
 
 				galleryName = $closestGallery.attr('data-gallery');
 				selectorType = 'ancestor';
@@ -134,7 +137,8 @@
 
 				items = $('[data-gallery='+galleryName+']');
 
-			} else if (galleryName && selectorType == 'ancestor') {
+			} 
+			else if (galleryName && selectorType == 'ancestor') {
 
 				//Filter to check if item has an ancestory with data-gallery attribute
 				items = items.filter(function(){
@@ -144,7 +148,13 @@
            		});
 
 			}
+	
+			overlay.append(closeIcon);
 
+			closeIcon.click(function(e){
+				e.preventDefault();
+				hideOverlay()
+			});
 			// Find the position of this image
 			// in the collection
 			index = items.index(this);
