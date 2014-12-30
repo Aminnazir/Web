@@ -62,14 +62,15 @@
 			var touch = e.originalEvent,
 				startX = touch.changedTouches[0].pageX;
 
-			slider.on('touchmove',function(e){
-			
-			overlay.append(closeIcon);
+				overlay.append(closeIcon);
 
 			closeIcon.click(function(e){
 				e.preventDefault();
 				hideOverlay()
 			});
+			slider.on('touchmove',function(e){
+			
+			
 			
 			
 				e.preventDefault();
