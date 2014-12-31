@@ -111,7 +111,7 @@
     text-decoration: none;
     cursor: pointer;
     position: absolute;
-    top: 4%;
+    top: 35px;
     margin-top: -13px;
     right: 10px;
     transition: opacity 0.2s ease 0s;

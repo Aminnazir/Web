@@ -16,6 +16,7 @@
 		prevArrow = $('<a id="prevArrow"></a>'),
 		nextArrow = $('<a id="nextArrow"></a>'),
 		closeIcon = $('<a id="close">Home</a>'),
+		copyright = $('<a id="copyright">Hira Foundation Dua App Develope By E-Reality-Solution</a>'),
 	
 		overlayVisible = false;
 
@@ -63,6 +64,7 @@
 				startX = touch.changedTouches[0].pageX;
 			
 			overlay.append(closeIcon);
+			overlay.append(copyright);
 
 			closeIcon.click(function(e){
 				e.preventDefault();
@@ -150,6 +152,7 @@
 			}
 	
 			overlay.append(closeIcon);
+			overlay.append(copyright);
 
 			closeIcon.click(function(e){
 				e.preventDefault();

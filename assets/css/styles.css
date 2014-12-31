@@ -209,3 +209,12 @@ footer a i b{
 	color:#c92020;
 	font-weight: normal;
 }
+
+
+#copyright
+{
+color: #555;
+position: fixed;
+text-align: center;
+padding: 0px 5px;
+}
