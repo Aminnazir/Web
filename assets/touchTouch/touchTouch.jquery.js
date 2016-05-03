@@ -16,7 +16,7 @@
 		prevArrow = $('<a id="prevArrow"></a>'),
 		nextArrow = $('<a id="nextArrow"></a>'),
 		closeIcon = $('<a id="close">Home</a>'),
-		copyright = $('<a id="copyright">Hira Foundation Dua App Develope By E-Reality-Solution</a>'),
+		copyright = $('<a id="copyright"></a>'),
 	
 		overlayVisible = false;
 
